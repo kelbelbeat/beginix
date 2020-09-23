@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4964"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs4958">
+    <filter
+       height="1.6786975"
+       y="-0.33934873"
+       width="1.1457742"
+       x="-0.072887118"
+       id="filter5668"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5670"
+         stdDeviation="2.1927741" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata4961">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <text
+       id="text4968"
+       y="121.81461"
+       x="51.404758"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;line-height:1.25;font-family:'.Helvetica LT MM';-inkscape-font-specification:'.Helvetica LT MM, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.93000022;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833328;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.64583325;stroke-opacity:1;filter:url(#filter5668)"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:'.Helvetica LT MM';-inkscape-font-specification:'.Helvetica LT MM, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833328;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.64583325;stroke-opacity:1"
+         y="121.81461"
+         x="51.404758"
+         id="tspan4966">DEFCON</tspan></text>
+    <text
+       id="text5515"
+       y="66.434525"
+       x="77.863091"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.02645833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.02645833;stroke-miterlimit:4;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;"
+         y="75.798294"
+         x="77.863091"
+         id="tspan5513" /></text>
+  </g>
+</svg>

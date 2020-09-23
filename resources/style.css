@@ -1,0 +1,190 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  width:100%;
+  height:100vh; /*vh size of our background screen*/
+  background-color: whitesmoke; /* change it*/
+  z-index:5;
+  /*animation: shakebox 2s ease-in 2.5s foreward; */
+}
+
+h1{
+  color:black;
+  font-size:2rem;
+}
+h2{
+  color:black;
+}
+h3{
+  color:black;
+}
+html{
+  background-color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  /* height: 100px; */
+  background-color: whitesmoke;
+}
+.title {
+  padding:20px;
+}
+
+.title h1, .container h2, .container a{
+animation:navigation 4s ease-out 0s;
+}
+
+.hero{
+  display:flex;
+  width:100%;
+  height: 70%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo{
+   position: absolute;
+   width:100%;
+   height:70%;
+   background-color: white;
+   left: 50%; /* centering it so far */
+   transform: translate(-50%,0%);
+   animation:fill 4s ease-out 0s;
+}
+#logo path{
+ stroke-dasharray: 600px; /*adds space between stroke*/
+ stroke-dashoffset:600px;
+ animation:line-anim 3s ease-out .5s;
+ fill: transparent;
+ stroke:black;
+ stroke-width: 2;
+}
+.button_group{
+  margin: 100px;
+  /* background-color: lightgray; */
+  /* display:flex; */
+  width: 400px;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  z-index: 1;
+}
+.button_group ul{
+  display: flex;
+  margin:40px;
+  justify-content: center;
+  padding: 40px;
+  border: 1px solid black;
+  background-color: lightgray;
+  border-radius: 4px;
+  }
+
+.button_group li{
+  padding:40px;
+  border: 1px solid black;
+
+}
+.container{
+  display:flex;
+  justify-content: space-evenly;
+  /* color: pink; */
+}
+
+.container ul{
+  padding:20px;
+}
+
+
+@keyframes line-anim{
+ to{
+    stroke-dashoffset:0;
+    z-index:2;
+  }
+  0% {opacity: 100%}
+  95% {opacity:100%}
+  98% {opacity:50%}
+  99% {opacity:20%}
+  100% {opacity:0%; z-index:0}
+}
+@keyframes fill{
+  0%{
+    fill:white;
+    z-index:2;
+  }
+  98% {opacity:100%}
+  99%{
+    fill:white;
+    z-index:2;
+    opacity:20%;
+
+  }
+  100%{
+    fill:none;
+    z-index:0;
+  opacity:0%
+  }
+}
+
+@keyframes navigation {
+  0%{
+    color:whitesmoke;
+    z-index:2;
+    opacity:100%;
+  }
+  98% {
+    opacity:100%}
+  99%{
+    color:whitesmoke;
+    z-index:2;
+    opacity:20%;
+  }
+  100%{
+    fill:none;
+    z-index:0;
+  opacity:0%
+  }
+}
+
+@media only screen and (max-width:740px){
+  nav {
+     display:inherit;
+     height: 15%;
+     text-align:center;
+     padding:20px;
+     background-color:whitesmoke;
+    }
+    .container ul{
+      padding:10px;
+    }
+}
+
+
+/*
+#main path:nth-child(1) {
+  stroke-dasharray:200px;
+  stroke-dashoffset:50px;
+}
+#main path:nth-child(2) {
+}
+#main path:nth-child(3) {
+
+}
+#main path:nth-child(4) {
+
+}
+#main path:nth-child(5) {
+
+}
+#main path:nth-child(6) {
+
+}
+#main path:nth-child(7) {
+}
+*/
